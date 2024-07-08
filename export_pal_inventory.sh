@@ -12,7 +12,6 @@ outputPalsDataFile="${PALWORLD_PALS_DATA_FILE:-$(pwd)/pals_data.json}"
 saveToolsConvertScript="${PALWORLD_SAVE_TOOLS_DIR:-$(pwd)/palworld-save-tools}/palworld_save_tools/commands/convert.py"
 saveFileCustomProperties='.worldSaveData.CharacterSaveParameterMap.Value.RawData'
 
-clear
 echo '-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-'
 echo '  Palworld Pal Inventory Exporter'
 echo '    Extract pals data from Palworld save file.'
